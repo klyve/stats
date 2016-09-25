@@ -1,0 +1,27 @@
+{
+  "name": "kzstats",
+  "version": "1.0.0",
+  "description": "Stats website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "ava tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klyve/stats.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klyve/stats/issues"
+  },
+  "homepage": "https://github.com/klyve/stats#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
